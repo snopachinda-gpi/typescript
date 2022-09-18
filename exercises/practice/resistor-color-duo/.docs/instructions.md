@@ -28,6 +28,8 @@ The band colors are encoded as follows:
 - Grey: 8
 - White: 9
 
-From the example above:
-brown-green should return 15
-brown-green-violet should return 15 too, ignoring the third color.
+Using these encoded colors, the following are a few color-band examples and their expected resistances:
+- brown-green returns 15
+- brown-green-violet returns 15 since we ignore the third color
+- black-yellow returns 4
+- violet-black returns 70
